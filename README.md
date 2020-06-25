@@ -8,7 +8,7 @@
 ## Selection of Training, Guard cells and offset
  Tr = 8, Td = 4, Gr = 4, Gd = 2, offset = 0.6
 ## Steps taken to suppress the non-thresholded cells at the edges
-ruby RDM(RDM~=0 & RDM~=1) = 0
+ RDM(RDM~=0 & RDM~=1) = 0
 ## Below are the images added
 1. Range map plot is shown below.
 <img src="range_map.jpg" width="779" height="414" />
