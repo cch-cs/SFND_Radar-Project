@@ -6,9 +6,9 @@
 4. Determine the signal level at the Cell Under Test. If the CUT signal level is greater than the threshold, assign a value as 1, else assign value as 0.
 5. For all the remaining cells which are not CUT, assign the value as 0.
 ## Selection of Training, Guard cells and offset
- '''ruby Tr = 8, Td = 4, Gr = 4, Gd = 2, offset = 0.6. '''
+ Tr = 8, Td = 4, Gr = 4, Gd = 2, offset = 0.6
 ## Steps taken to suppress the non-thresholded cells at the edges
-'''ruby RDM(RDM~=0 & RDM~=1) = 0 '''
+ruby RDM(RDM~=0 & RDM~=1) = 0
 ## Below are the images added
 1. Range map plot is shown below.
 <img src="range_map.jpg" width="779" height="414" />
